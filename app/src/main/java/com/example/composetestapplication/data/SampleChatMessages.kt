@@ -1,6 +1,9 @@
-package com.example.composetestapplication
+package com.example.composetestapplication.data
 
-object SampleData {
+import com.example.composetestapplication.tutorials.chat_messages_demo.Message
+
+
+object SampleChatMessages {
     // Sample conversation data
     val conversationSample = listOf(
         Message(
